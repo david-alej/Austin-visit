@@ -3,7 +3,7 @@ from shortest_path import cal_path, dst
 import pandas as pd
 import pyfiglet
 
-def rcmd_sftwr(grt = True, loc = True, tmp = True, directory = r'~/Learning Python/.venv/Recommendation Software/1099005.csv'):
+def rcmd_sftwr(grt = True, loc = True, tmp = True, directory = r'./1099005.csv'):
   df = pd.read_csv(directory)
   if grt == True:
     greet()

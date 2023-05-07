@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r'~/Learning Python/.venv/Recommendation Software/1099005.csv')
+# df = pd.read_csv(r'./1099005.csv')
 
 def comb(temp_array, temp, temp_range, start):
   for i in range(len(temp_array)):
